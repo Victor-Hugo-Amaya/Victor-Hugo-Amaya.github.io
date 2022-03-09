@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>Selecciona tus Ingredientes</h1>
+    <form action="pedido.js">
+        <section class="Select1">
+        <h2>Tipo de Pastel</h2>
+        <input type="radio" id="tres leches" name="tipo" value="tres leches" class="check">
+        <label for="tres leches" class="seleccion">Tres leches</label>
+        <br>
+        <input type="radio" id="mil hojas" name="tipo" value="mil hojas" class="check">
+        <label for="mil hojas" class="seleccion">Mil Hojas</label>
+        <br>
+        <input type="radio" id="sin gluten" name="tipo" value="sin gluten" class="check">
+        <label for="mil hojas" class="seleccion">Sin Gluten</label>
+    </section>
+    <section class="Select2">
+        <h2>Tamaño del Pastel</h2>
+        <input type="radio" id="grande" name="tamaño" value="grande" class="check">
+        <label for="grande" class="seleccion">Grande</label>
+        <br>
+        <input type="radio" id="mediano" name="tamaño" value="mediano" class="check">
+        <label for="mediano" class="seleccion">Mediano</label>
+        <br>
+        <input type="radio" id="chico" name="tamaño" value="chico" class="check">
+        <label for="chico" class="seleccion">Chico</label>
+    </section>
+    <section class="Checkbox1">
+        <h2>Sabores</h2>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate" class="check">
+        <label for="sabor1" class="seleccion">Chocolate</label>
+        <br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Vainilla" class="check">
+        <label for="sabor2" class="seleccion">Vainilla</label>
+        <br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Fresa" class="check">
+        <label for="sabor3" class="seleccion">Fresa</label>
+        <br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Moca" class="check">
+        <label for="sabor4" class="seleccion">Moca</label>
+        <br>
+        <input type="checkbox" id="sabor5" name="sabor5" value="Galleta" class="check">
+        <label for="sabor5" class="seleccion">Galleta</label>
+        <br>
+        <input type="checkbox" id="sabor6" name="sabor6" value="Frutos Rojos" class="check">
+        <label for="sabor6" class="seleccion">Frutos Rojos</label>
+    </section>
+    <br>
+    <section class="Checkbox2">
+        <h2>Cubierta</h2>
+        <input type="checkbox" id="deco1" name="deco1" value="crema" class="check">
+        <label for="deco1" class="seleccion">Crema Pastelera</label>
+        <br>
+        <input type="checkbox" id="deco2" name="deco2" value="chantilli" class="check">
+        <label for="deco2" class="seleccion">Chantilli</label>
+        <br>
+        <input type="checkbox" id="deco3" name="deco3" value="cubiertachocolate" class="check">
+        <label for="deco3" class="seleccion">Cubierta de Chocolate</label>
+        <br>
+        <h2>Frutas</h2>
+        <input type="checkbox" id="fruit1" name="fruit1" value="Fresa" class="check">
+        <label for="fruit1" class="seleccion">Fresa</label><br>
+        <input type="checkbox" id="fruit2" name="fruit2" value="Durazno" class="check">
+        <label for="fruit2" class="seleccion">Durazno</label><br>
+        <input type="checkbox" id="fruit3" name="fruit3" value="Cereza" class="check">
+        <label for="fruit3" class="seleccion">Cereza</label><br>
+        <input type="checkbox" id="fruit4" name="fruit4" value="Coco" class="check">
+        <label for="fruit4" class="seleccion">Coco Rallado</label><br>
+        <input type="checkbox" id="fruit5" name="fruit5" value="Uva" class="check">
+        <label for="fruit5" class="seleccion">Uva</label>
+    </section>
+    <section class="Formulario">
+        <h2>Datos del Cliente</h2>
+        <label for="Nombre">Nombre completo</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+        <br>
+        <label for="correo">Coreeo</label><br>
+        <input type="email" name="correo" id="correo" placeholder="example@emali.com">
+        <br>
+        <label for="tel">Télefomo</label><br>
+        <input type="tel" name="tel" id="tel" placeholder="Télefono" maxlength="10">
+        <br>
+        <label for="descrip">Descripción del Pastel</label><br>
+        <input type="text" name="descrip" id="descrip">
+        <br>
+    </section>
+    </form>
+    
+</body>
+</html>
